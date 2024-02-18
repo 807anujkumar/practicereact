@@ -1,0 +1,120 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+/* this is for the headingof the appname */
+.Appname{
+   text-align:center;
+   font-size: x-larger;
+   font-weight: 750;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   word-spacing: 2px;
+  margin: 10px;
+    font-style: normal;
+
+
+
+}
+.header{
+  width: 100%;
+/* border: 1px solid red; */
+margin-bottom: 10%;
+}
+.header_post{
+  width: 100%;
+  max-width: 100%;
+  display:  flex;
+ flex-direction: column;
+ justify-items: left;
+  /* flex-wrap:wrap; */
+ 
+}
+.sidebar{
+     height: 700px;
+     width: 100%;
+
+
+}
+ 
+.App{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+
+}
+  .postlist{
+    margin-top: -5%;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .footer{
+ margin-top: 10%;
+ background-color: rgb(2, 2, 18);
+ color: white;
+ font-weight: 700;
+
+  }
+  .listITem{
+    margin-right: 50%;
+    font-size:x-small larger;
+    font-weight: 300;
+    
+  }
+  footer h5{
+    margin-left: 10%;
+  }
+  .title{
+    color: rgb(5, 0, 12);
+    font-size: larger;
+    font-weight: 600;
+  }
+  .text_para{
+    color: rgb(59, 58, 58);
+    font-size: medium;
+  }
+  .tag{
+  margin: 10px;
+  font-size: x-large;
+  font-weight: 800;
+  padding:5px;
+  color: blue;
+  }
+  .reactions span{
+    margin: 10px;
+    padding: 15px;
+    font-size:medium;
+  }
+  .delet{
+    margin-left: 97%;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid gray;
+    background-color: gray;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: larger;
+
+
+  }
+.delet:hover{
+  background-color: aqua;
+  color: rgb(2, 2, 21);
+  transition: all;
+  transform: scaleZ(1.2);
+transition-duration: 2s;
+}
+.createpost{
+  width: 40%;
+  border:  2px dotted rgb(255, 0, 170);
+  border-radius: 10px;
+  margin-top:10px;
+ background-color: rgb(199, 255, 252);
+}
+.Loading{
+  margin-top: 20%;
+}
