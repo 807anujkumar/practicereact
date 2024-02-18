@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(199, 79, 165);
+}
+
+.conatiner{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+ column-gap: 20px;
+ margin-top: 20px;
+
+}
+.conatiner1{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+ column-gap: 20px;
+ margin-top: 20px;
+ 
+}
+
+.conatiner2{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+ column-gap: 20px;
+ margin-top: 20px;
+ 
+}
+.buy{
+  margin-right: 100px;
+  font-size: larger;
+  font-weight: 600;
+   
+}
+.date{
+  margin-left: 40px;
+  font-size: large;
+  font-weight: 500;
+
+}
+.btm button{
+  margin-left: 30px;
+   background-color: rgb(63, 231, 133);
+   width: 60px;
+   border-radius: 5px;
+   
+
+}
+.btm1 button{
+  margin-left: 55px;
+   background-color: rgb(192, 81, 12);
+   width: 80px;
+   border-radius: 5px;
+   
+
+}
+.btm2 button{
+  margin-left: 55px;
+   background-color: rgb(192, 81, 12);
+   width: 80px;
+   border-radius: 5px;
+   
+
+}
+.input input{
+  background-color: aliceblue;
+  width: 100%;
+  border-radius: 5px;
+  outline: 1;
+  border: none;
+}
+.input10 input{
+  background-color: aliceblue;
+  width: 100%;
+  border-radius: 5px;
+  outline: 1;
+  height: 25px;
+  border: none;
+}

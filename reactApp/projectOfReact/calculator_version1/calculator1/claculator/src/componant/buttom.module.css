@@ -1,0 +1,29 @@
+.btmcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+  column-gap: 10px;
+  row-gap: 10px;
+    margin-bottom: 10px;
+}
+.btm{
+    display:  flex;
+    justify-content: center;
+     align-items:  center;
+     width: 60px;
+     height: 60px;
+     border-radius: 5px;
+     border: 1px solid gray;
+     cursor: pointer;
+      font-size: large;
+      font-weight: 600;
+      
+    
+    
+    }
+    .btm:hover{
+      background-color: rgb(6, 94, 97);
+    }
+    
